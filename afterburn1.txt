@@ -8,7 +8,9 @@ bundle update
 change to gem 'rails', '4.0.4'
 bundle update
 bundle install
-
-
-
-
+git init
+Initialized empty Git repository in /home/dougm/rails_projects/ab1_app/.git/
+git status
+git add .
+git commit -m "Initial commit for ab1_app"
+git commit -m "first commit"
