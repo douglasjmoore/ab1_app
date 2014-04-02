@@ -1,0 +1,14 @@
+cd ~/rails_projects 
+rails new ab1_app
+cd ab1_app
+#Edit in ab1_app - Gemfile same as 9.47
+bundle install --without production
+#ERROR had to change to gem 'rails', '4.0.2'
+bundle update
+change to gem 'rails', '4.0.4'
+bundle update
+bundle install
+
+
+
+
